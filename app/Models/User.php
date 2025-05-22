@@ -46,13 +46,5 @@ class User extends Authenticatable
         ];
     }
 
-        public function sales()
-    {
-        return $this->hasMany(Sale::class);
-    }
-
-    public function createdNotes()
-    {
-        return $this->hasMany(Note::class, 'created_by');
-    }
+  
 }

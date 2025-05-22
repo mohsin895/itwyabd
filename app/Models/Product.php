@@ -10,19 +10,10 @@ class Product extends Model
 
 
 
-    public function saleItems()
-    {
-        return $this->hasMany(SaleItem::class);
-    }
-
     public function notes()
     {
         return $this->morphOne(Note::class, 'notable');
     }
 
 
-    public function getFormattedPriceAttribute()
-    {
-        return number_format($this->price, 2) . ' BDT';
-    }
 }
