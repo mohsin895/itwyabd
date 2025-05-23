@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SaleController;
-use App\Http\Controllers\NoteController;
+
 
 Route::get('/', [SaleController::class, 'index'])->name('home');
 

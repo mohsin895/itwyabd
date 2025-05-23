@@ -18,7 +18,6 @@ return new class extends Migration
             $table->decimal('subtotal', 12, 2);
             $table->decimal('discount_amount', 10, 2)->default(0);
             $table->decimal('total_amount', 12, 2);
-            $table->text('sale_notes')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
