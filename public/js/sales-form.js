@@ -1,4 +1,4 @@
-// public/js/sales-form.js
+
 
 class SalesForm {
     constructor() {
