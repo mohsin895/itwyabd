@@ -77,10 +77,7 @@
                                         <td><strong>Discount:</strong></td>
                                         <td class="text-end" id="totalDiscount">0.00 BDT</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong>Tax (15%):</strong></td>
-                                        <td class="text-end" id="taxAmount">0.00 BDT</td>
-                                    </tr>
+                                   
                                     <tr class="table-primary">
                                         <td><strong>Grand Total:</strong></td>
                                         <td class="text-end" id="grandTotal"><strong>0.00 BDT</strong></td>

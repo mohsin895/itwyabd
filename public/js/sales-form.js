@@ -130,13 +130,13 @@ class SalesForm {
             }
         });
 
-        const taxAmount = subtotal * 0.15; // 15% tax
-        const grandTotal = subtotal + taxAmount;
+      
+        const grandTotal = subtotal 
 
         // Update display
         document.getElementById('subtotal').textContent = this.formatCurrency(subtotal);
         document.getElementById('totalDiscount').textContent = this.formatCurrency(totalDiscount);
-        document.getElementById('taxAmount').textContent = this.formatCurrency(taxAmount);
+     
         document.getElementById('grandTotal').innerHTML = '<strong>' + this.formatCurrency(grandTotal) + '</strong>';
     }
 
